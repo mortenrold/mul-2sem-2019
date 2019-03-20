@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.row {
+	padding: 60px;
+}
+
+/* "attribute selector" - jeg vælger en selector, der indeholder en bestemt atribut */
+
+/* vælger alle billeder med værdien "Hund i kop" i alt-atributten */
+img[alt="Hund i kop"] {
+	border: 3px solid blue;
+}
+
+/* vælg alle div'er, der starter med "col-" i deres klassenavn og giv dem en ny gutter (padding: 5px) */
+div[class^="col-"] {
+	padding: 5px;
+}
+
+mark {
+	background-color: lightblue;
+}
+.display-3 {
+	color: #999;
+}
+/* .btn-info {
+	background-color: yellow;
+} */
+
+
+
+
+
+
