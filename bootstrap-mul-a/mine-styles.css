@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* "Atribute selector" - vælger alle img med værdien "Veltilfreds hund" i alt-atributten */
+
+img[alt="Veltilfreds hund"] {
+	border: 3px solid red;
+}
+
+/* vælger alle div'er, hvor værdien i class begynder med "col-" */
+div[class^="col-"] {
+	padding: 5px;
+}
+
+.display-3 {
+	color: #999;
+	font-weight: 100;
+}
+
+.btn-min-knap {
+	background-color: pink;
+}
+.btn-min-knap:hover {
+	background-color: #FF8DA1;
+}
+.top-row {
+	margin-top: 100px;
+}
+
+
+
+
